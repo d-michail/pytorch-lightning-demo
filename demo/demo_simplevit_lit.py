@@ -10,7 +10,7 @@ from torchmetrics import AUROC, AveragePrecision, F1Score
 logger = logging.getLogger(__name__)
 
 
-class DemoLit(L.LightningModule):
+class DemoSimpleVitLit(L.LightningModule):
     def __init__(
         self,
         image_size = 256, 

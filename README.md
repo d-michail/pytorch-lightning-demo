@@ -2,12 +2,19 @@
 # Pytorch Lightning Demo
 
 This is a very simple pytorch lightning demo to bootstrap a new project. It uses the MNIST dataset 
-and a SimpleVIT as a model. Uses Lightning CLI. See config.yaml for default configuration. 
+and two different models. Uses Lightning CLI. Each different model has each own config file.
+Should be enough in order to bootstrap a project for a single dataset and comparison of different models.
 
 Run using 
 
 ```
-python main.py fit --config config.yaml
+python main.py fit --model ViT --config config-vit.yaml
+```
+
+or 
+
+```
+python main.py fit --model SimpleViT --config config-simplevit.yaml
 ```
 
 In order to install dependencies
