@@ -8,13 +8,13 @@ Should be enough in order to bootstrap a project for a single dataset and compar
 Run using 
 
 ```
-python main.py fit --model ViT --config config-vit.yaml
+python main.py fit --config config-vit.yaml
 ```
 
 or 
 
 ```
-python main.py fit --model SimpleViT --config config-simplevit.yaml
+python main.py fit --config config-simplevit.yaml
 ```
 
 In order to install dependencies
