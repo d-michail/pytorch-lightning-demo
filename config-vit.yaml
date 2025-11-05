@@ -71,9 +71,11 @@ model:
     lr: 0.01
     weight_decay: 0.00001
 data:
-  data_dir: "data"
-  download: true
-  batch_size: 64
-  num_workers: 10
-  pin_memory: false
+  class_path: demo.data.DemoDataModule
+  init_args:
+    data_dir: "data"
+    download: true
+    batch_size: 64
+    num_workers: 10
+    pin_memory: false
 ckpt_path: null

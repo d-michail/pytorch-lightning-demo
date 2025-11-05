@@ -12,9 +12,7 @@ def main():
     level = logging.INFO
     logging.basicConfig(level=level)
 
-    cli = LightningCLI(
-        datamodule_class=DemoDataModule,
-    )
+    cli = LightningCLI()
 
 if __name__ == "__main__":
     main()
