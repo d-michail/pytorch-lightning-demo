@@ -59,7 +59,7 @@ trainer:
   reload_dataloaders_every_n_epochs: 0
   default_root_dir: null
 model:
-  class_path: demo.demo_vit_lit.DemoViTLit
+  class_path: demo.demo_vit_lit.DemoVitLit
   init_args:
     image_size: 28
     patch_size: 4
